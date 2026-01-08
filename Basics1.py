@@ -8,8 +8,10 @@
 # 6.set
 # 7.dict
 # 8.tuple
-# complex
+# 9.None
+# 10.complex
 # bin()
+
 print(bin(10))
 print(int('0b101', 2))
 
@@ -203,3 +205,76 @@ print(d)
 
 a = None
 print(a)
+
+# DICTIONARY Unordered Key Value Pair
+dict = {
+    'a': 1,
+    'b':[2, 3, 4, 5],
+    'c':True,
+    'd':{'a':1, 'b':2},
+    'e':"Syed Salahuddin",
+    'f':9
+}
+print(dict['d'])
+
+# dictionary inside a List
+my_list = [
+    {
+     'a':[1, 2, 3],
+     'b':'hello',
+     'x':True},
+    {
+    's':[2, 3, 4],
+    'f':'Salahuddin',
+    'x':False 
+    }
+]
+print(my_list[0]['a'][2])
+
+# In dictionary Keys can't be mutable i.e lists etc
+# Keys should be unique
+# Use .get() when not certain of the answer
+# Keys can't be expression
+
+user = {
+    'basket':[1, 2, 3],
+    'greet':'hello',
+    'age':20
+}
+
+print('size' in user.keys())
+
+print('hello' in user.items())
+
+# Dictionary Methods
+# https://www.w3schools.com/python/python_ref_dictionary.asp
+
+# TUPLES
+
+# Immutable Lists
+# Allows accessing 
+mt = (1, 2, 3, 4, 50)
+print(mt)
+
+print(user.items())
+
+# Tuple Methods
+# https://www.w3schools.com/python/python_ref_tuple.asp
+
+
+my_tuple = (1, 2, 3, 4, 5)
+print(my_tuple.index(4))
+# Len Functions also works in tuples
+
+# SET
+# Unordered collections of unique objects
+my_set = {1, 2, 3, 4, 5}
+my_set.add(6)
+my_set.add(1)
+print(my_set)
+# If iterating over is required then convert it to list and from set and vice versa
+# SET doesn't support indexing
+
+# Set Methods
+# https://www.w3schools.com/python/python_ref_set.asp
+# isdisjoint to check whether they are common or not
