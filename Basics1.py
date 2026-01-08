@@ -142,3 +142,64 @@ matrix = [
 ]
 
 print(matrix[1][2])
+
+# List Methods
+# Python List Methods
+# https://www.w3schools.com/python/python_ref_list.asp
+
+numerics = [1, 2, 3, 4, 5]
+
+numerics.append(6)
+print(numerics)
+
+new_list = numerics
+print(new_list)
+
+# adding
+new_list.insert(2, 100)
+print(new_list)
+
+new_list.extend([102, 103])
+print(new_list)
+
+# removing
+# returns or removes something depending on variable names
+new_list.pop() #index can also be used
+print(new_list)
+
+new_list.remove(2)
+print(new_list)
+
+# new_list.clear()
+# print(new_list)
+
+print(new_list.index(3))
+
+alpha = ['a', 'b','x','q', 'c', 'd', 'e']
+# print(alpha.index('d', 0, 4))
+print('d' in alpha)
+print('x' in alpha)
+print(sorted(alpha)) #doesn't modify basket just makes a copy
+
+ap = alpha.copy()
+ap.reverse()
+print(ap)
+print(alpha[::-1])
+
+print(list(range(1, 100, 10)))
+
+# sentence = ' '
+n_sentence = ' '.join(['hi','my','name','is', 'Salahuddin'])
+
+print(n_sentence)
+
+# List Unpacking
+a, b, c ,*other , d= [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(a)
+print(b)
+print(c)
+print(other)
+print(d) 
+
+a = None
+print(a)
