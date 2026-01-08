@@ -47,3 +47,11 @@ print(5 + 4 * 10 // 2)
 # /=
 # -=
 
+print("Hello, This is Syed Salahuddin!")
+
+username = "SalahCoder"
+
+long_string = '''
+WOW, This is Legit a Long String,
+This is a whole new Experience.
+'''
