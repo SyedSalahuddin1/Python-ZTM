@@ -55,3 +55,44 @@ long_string = '''
 WOW, This is Legit a Long String,
 This is a whole new Experience.
 '''
+# String concatenations
+print("Syed " + "Salahuddin")
+
+# type conversion
+print(type(str(100)))
+
+# Escape Sequence in Python \
+weather = "\t It's 'Kind of' Sunny, \n Its Crazy Kind of Cold here"
+print(weather)
+
+name = "Salahuddin"
+age = 24
+
+# Formatted Strings
+# Old way was .format
+print(f'Hi {name}, You are {age} years old.')
+
+print("\tBreak")
+# String indexing
+# 0123456789.....
+# [0:2] can be anything
+# [2:]
+# [:3]
+# [::2] skip every n time
+# [-2] reverse indexing
+# [::-1] skipping in reverse
+# Basically [start, stop, stepover] 
+
+
+name = "I am Syed Salahuddin, Learning Python by practicing daily, I'm sure that I will practice daily"
+
+print(name[1:4])
+print(name[2:])
+print(name[:])
+print(name[1:100])
+print(name[-1])
+print(name[-4])
+print(name[:-3])
+print(name[-4:])
+print(name[::-4])
+
