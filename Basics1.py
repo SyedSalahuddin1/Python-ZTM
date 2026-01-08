@@ -2,7 +2,7 @@
 
 # 1.int
 # 2.float
-# 3.str 
+# 3.str  immutable 
 # 4.bool
 # 5.list
 # 6.set
@@ -51,10 +51,14 @@ print("Hello, This is Syed Salahuddin!")
 
 username = "SalahCoder"
 
+# Python Keywords
+# https://www.w3schools.com/python/python_ref_keywords.asp
+
 long_string = '''
 WOW, This is Legit a Long String,
 This is a whole new Experience.
 '''
+
 # String concatenations
 print("Syed " + "Salahuddin")
 
@@ -96,3 +100,45 @@ print(name[:-3])
 print(name[-4:])
 print(name[::-4])
 
+# Built In Python Methods
+# https://docs.python.org/3/library/functions.html
+
+# Built In Python String Methods
+# https://www.w3schools.com/python/python_ref_string.asp
+
+# Booleans True or False
+
+# Type Conversion
+# birth_year = int(input("What year were you born? "))
+# print(birth_year)
+
+# age = 2026 - birth_year
+
+# print(f"You are {age} year's old.")
+
+# https://realpython.com/python-comments-guide/
+
+# LISTS
+# 0 based indexing
+# mutable
+ 
+
+li = ['a', 'b', 'c', 'd', 1, 2, 3, 4, "True", "False"]
+print(li[1:])
+
+# List Slicing
+# Changing values 
+# Accessing From start to end , stepover
+# [start, stop, stepover]
+# -ve based indexing
+
+# MATRIX
+# 2D or multi dimensional list
+
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6], 
+    [7, 8, 9]
+]
+
+print(matrix[1][2])
