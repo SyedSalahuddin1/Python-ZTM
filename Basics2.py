@@ -32,3 +32,34 @@ print(is_friend and is_user)
 
 # Logical Operator
 # > < == != <
+
+# is VS ==
+# == checks for equality
+# is checks if the location of memory where e value is stored is same
+# is gives True for numbers
+
+# Has different o/p for == and is
+print(True is 1)
+print('1' is 1)
+print([] is 1)
+print(10 is 10)
+print([1, 2, 3] is [1, 2, 3])
+
+a = [1, 2, 3]
+b = [1, 2, 3]
+print(a == b)
+
+
+# LOOPS
+
+for item in "Syed Salahuddin":
+    print(item)
+
+# Nested Loops 
+# $ loop inside a loop
+
+# iterable -- list, dictionary, tuple, set, string
+# iterated -> one by one check each item in the collection
+
+# for key, value in user.items():
+#   print(key, value)
