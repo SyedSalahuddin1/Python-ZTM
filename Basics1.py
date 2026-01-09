@@ -181,7 +181,7 @@ alpha = ['a', 'b','x','q', 'c', 'd', 'e']
 # print(alpha.index('d', 0, 4))
 print('d' in alpha)
 print('x' in alpha)
-print(sorted(alpha)) #doesn't modify basket just makes a copy
+print(sorted(alpha)) #doesn't modify list just makes a copy
 
 ap = alpha.copy()
 ap.reverse()
@@ -244,7 +244,7 @@ user = {
 
 print('size' in user.keys())
 
-print('hello' in user.items())
+print(('greet','hello') in user.items())
 
 # Dictionary Methods
 # https://www.w3schools.com/python/python_ref_dictionary.asp
@@ -255,7 +255,7 @@ print('hello' in user.items())
 # Allows accessing 
 mt = (1, 2, 3, 4, 50)
 print(mt)
-
+print(f"This is the output from tuple {mt[3]}")
 print(user.items())
 
 # Tuple Methods
