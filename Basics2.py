@@ -63,3 +63,24 @@ for item in "Syed Salahuddin":
 
 # for key, value in user.items():
 #   print(key, value)
+
+# ENUMERATE() works on list tuple 
+for i, char in enumerate('Hello'):
+    print(i, char)
+    
+for i, char in enumerate(list(range(100))):
+    if char == 50:
+        print(f"index of 50 is: {char}")
+        
+for i, char in enumerate(list(range(0, 100, 10))):
+    print(i, char)
+    
+# WHILE CONDITION
+
+i = 0
+while i < 50:
+    print(i)
+    i += 10
+print("Done all iterations!")
+
+# 2
